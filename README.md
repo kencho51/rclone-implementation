@@ -262,3 +262,17 @@ Transferred:        4.386k / 4.386 kBytes, 100%, 1.242 kBytes/s, ETA 0s
 Transferred:            1 / 1, 100%
 Elapsed time:         5.1s
 ```
+
+### rclone usage
+1. Primarily
+`rclone sync -i /local/path remote:path` # syncs /local/path to the remote  
+2. Optional parameters
+   `--dry-run`: Do a trial run with no permanent changes. Use this to see what rclone would do without actually doing it.  
+   `--interactive`: This flag can be used to tell rclone that you wish a manual confirmation before destructive operations.  
+   `--update`: Skip any files that are on the remote storage that have a modified time that is newer than the file on the local computer  
+   `-–transfers 30`: This sets the number of files to copy in parallel.  
+   `-–checkers 8`: How many “checkers” to run in parallel. Checkers monitor the transfers that are in progress.  
+   `-–contimeout 60s`: The connection timeout. It sets the time that rclone will try to make a connection to the remote storage.  
+   `-–timeout 300s`: If a transfer becomes idle for this amount of time, it is considered broken and is disconnected.  
+   `-–retries 3`: If there are this many errors, the entire copy action will be restarted. 
+   `-–verbose`: Gives information about every file that is transferred.  
