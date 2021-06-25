@@ -264,9 +264,9 @@ Elapsed time:         5.1s
 ```
 
 ### rclone usage
-1. Primarily
+1. Primarily  
 `rclone sync -i /local/path remote:path` # syncs /local/path to the remote  
-2. Optional parameters
+2. Optional parameters  
    `--dry-run`: Do a trial run with no permanent changes. Use this to see what rclone would do without actually doing it.  
    `--interactive`: This flag can be used to tell rclone that you wish a manual confirmation before destructive operations.  
    `--update`: Skip any files that are on the remote storage that have a modified time that is newer than the file on the local computer  
