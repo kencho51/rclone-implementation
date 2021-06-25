@@ -18,7 +18,7 @@ Documentation for implementing RClone in Tencent Cloud in product backlog [#600]
 
 ### Backup plan
 1. Sync data in cngb server to tencent cloud  
-Since `10.50.11.48` server has mounted GigaDB’s dataset files which are located on `192.168.56.61` server into the local `/data/gigadb` directory
+Since `10.50.11.48` server has mounted GigaDB’s dataset files which are located on `192.168.56.61` server into the local `/data/gigadb` directory  
 Source: `/data/gigadb`  
 Destination: `/cngb/giga/gigadb`  
 
