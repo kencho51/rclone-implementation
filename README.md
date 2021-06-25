@@ -227,3 +227,4 @@ Use "rclone help flags" for to see the global flags.
 Use "rclone help backends" for a list of supported services.
 
 ```
+/Users/kencho/.config/rclone/rclone.conf
