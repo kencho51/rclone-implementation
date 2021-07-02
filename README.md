@@ -261,11 +261,21 @@ y/n/s/!/q> y
 Transferred:        4.386k / 4.386 kBytes, 100%, 1.242 kBytes/s, ETA 0s
 Transferred:            1 / 1, 100%
 Elapsed time:         5.1s
+kencho@MacBook-Pro:/Volumes/kencho/rclone-implementation (main=) % rclone tree  google-drive:rclone_backup      
+/
+├── giga_backup.sh
+├── giga_backup_fullbackup.sh
+└── gsbackup.sh
+
+0 directories, 3 files
+kencho@MacBook-Pro:/Volumes/kencho/rclone-implementation (main=) % rclone check scripts/ google-drive:rclone_backup
+2021/07/02 15:34:55 NOTICE: Google drive root 'rclone_backup': 0 differences found
+2021/07/02 15:34:55 NOTICE: Google drive root 'rclone_backup': 3 matching files
 ```
 
 ### rclone usage
 1. Primarily  
-`rclone sync -i /local/path remote:path` # syncs /local/path to the remote  
+`rclone sync /local/path remote:path` # syncs /local/path to the remote  
 2. Optional parameters  
    `--dry-run`: Do a trial run with no permanent changes. Use this to see what rclone would do without actually doing it.  
    `--interactive`: This flag can be used to tell rclone that you wish a manual confirmation before destructive operations.  
@@ -274,5 +284,10 @@ Elapsed time:         5.1s
    `-–checkers 8`: How many “checkers” to run in parallel. Checkers monitor the transfers that are in progress.  
    `-–contimeout 60s`: The connection timeout. It sets the time that rclone will try to make a connection to the remote storage.  
    `-–timeout 300s`: If a transfer becomes idle for this amount of time, it is considered broken and is disconnected.  
-   `-–retries 3`: If there are this many errors, the entire copy action will be restarted. 
+   `-–retries 3`: If there are this many errors, the entire copy action will be restarted.   
    `-–verbose`: Gives information about every file that is transferred.  
+   
+### reference
+1. [rclone/integration-test](https://github.com/rclone/integration-test)  
+2. [rclone university guide](https://www.upf.edu/web/sct-sit/rclone_guide)
+3. [rclone check](https://rclone.org/commands/rclone_check/)  
