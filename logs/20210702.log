@@ -1,0 +1,22 @@
+2021/07/02 16:39:39 DEBUG : Using config file from "/Users/kencho/.config/rclone/rclone.conf"
+2021/07/02 16:39:39 DEBUG : rclone: Version "v1.55.1" starting with parameters ["/usr/local/bin/rclone" "--checksum" "-vv" "sync" "/Volumes/kencho/rclone-implementation/scripts/" "google-drive:rclone_backup"]
+2021/07/02 16:39:39 DEBUG : Creating backend with remote "/Volumes/kencho/rclone-implementation/scripts/"
+2021/07/02 16:39:39 DEBUG : Creating backend with remote "google-drive:rclone_backup"
+2021/07/02 16:39:39 DEBUG : Google drive root 'rclone_backup': root_folder_id = "0ALDPCZdXN9TrUk9PVA" - save this in the config to speed up startup
+2021/07/02 16:39:40 DEBUG : Google drive root 'rclone_backup': Waiting for checks to finish
+2021/07/02 16:39:40 DEBUG : Google drive root 'rclone_backup': Waiting for transfers to finish
+2021/07/02 16:39:42 DEBUG : gsbackup.sh: MD5 = d0bd656b5202d8a1a8e6a5c074d26769 OK
+2021/07/02 16:39:42 INFO  : gsbackup.sh: Copied (new)
+2021/07/02 16:39:42 DEBUG : giga_backup.sh: MD5 = 996726889cf050b5f4ae5b7d96b92bec OK
+2021/07/02 16:39:42 INFO  : giga_backup.sh: Copied (new)
+2021/07/02 16:39:43 DEBUG : giga_backup_fullbackup.sh: MD5 = 4cb6062a012524cfbe86aff75fbd7c90 OK
+2021/07/02 16:39:43 INFO  : giga_backup_fullbackup.sh: Copied (new)
+2021/07/02 16:39:43 DEBUG : Waiting for deletions to finish
+2021/07/02 16:39:43 INFO  : 
+Transferred:   	    1.028k / 1.028 kBytes, 100%, 418 Bytes/s, ETA 0s
+Transferred:            3 / 3, 100%
+Elapsed time:         3.9s
+
+2021/07/02 16:39:43 DEBUG : 10 go routines active
+2021/07/02 16:39:44 NOTICE: Google drive root 'rclone_backup': 0 differences found
+2021/07/02 16:39:44 NOTICE: Google drive root 'rclone_backup': 3 matching files
