@@ -287,6 +287,14 @@ kencho@MacBook-Pro:/Volumes/kencho/rclone-implementation (main=) % rclone check 
    `-–retries 3`: If there are this many errors, the entire copy action will be restarted.   
    `-–verbose`: Gives information about every file that is transferred.  
    
+### smoc server info
+```
+[gigadb@cngb-gigadb-bak ~]$ uname -a
+Linux cngb-gigadb-bak 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[gigadb@cngb-gigadb-bak ~]$ whoami
+gigadb
+```
+   
 ### reference
 1. [rclone/integration-test](https://github.com/rclone/integration-test)  
 2. [rclone university guide](https://www.upf.edu/web/sct-sit/rclone_guide)
@@ -294,3 +302,4 @@ kencho@MacBook-Pro:/Volumes/kencho/rclone-implementation (main=) % rclone check 
 4. [rclone-cron.sh](https://gist.github.com/christippett/32a8f4bc8bb2fe89ed43836569e785c8)
 5. [Continuous immediate file sync with Rclone](https://blog.rymcg.tech/blog/linux/rclone_sync/)
 6. [Using rclone on linux to automate backups to google drive](https://medium.com/swlh/using-rclone-on-linux-to-automate-backups-to-google-drive-d599b49c42e8)
+7. [Rclone tecent cloud COS tutorial](https://cloud.tencent.com/developer/article/1520867)  
