@@ -1,3 +1,5 @@
 # untrack secret
 .secrets
 .cos.conf
+*.zip
+/rclone-v1.55.1-osx-amd64
