@@ -303,3 +303,4 @@ gigadb
 5. [Continuous immediate file sync with Rclone](https://blog.rymcg.tech/blog/linux/rclone_sync/)
 6. [Using rclone on linux to automate backups to google drive](https://medium.com/swlh/using-rclone-on-linux-to-automate-backups-to-google-drive-d599b49c42e8)
 7. [Rclone tecent cloud COS tutorial](https://cloud.tencent.com/developer/article/1520867)  
+8. [Advance rclone](http://hellogeek.fun/rclone/)  
