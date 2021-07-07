@@ -291,3 +291,6 @@ kencho@MacBook-Pro:/Volumes/kencho/rclone-implementation (main=) % rclone check 
 1. [rclone/integration-test](https://github.com/rclone/integration-test)  
 2. [rclone university guide](https://www.upf.edu/web/sct-sit/rclone_guide)
 3. [rclone check](https://rclone.org/commands/rclone_check/)  
+4. [rclone-cron.sh](https://gist.github.com/christippett/32a8f4bc8bb2fe89ed43836569e785c8)
+5. [Continuous immediate file sync with Rclone](https://blog.rymcg.tech/blog/linux/rclone_sync/)
+6. [Using rclone on linux to automate backups to google drive](https://medium.com/swlh/using-rclone-on-linux-to-automate-backups-to-google-drive-d599b49c42e8)
