@@ -310,3 +310,4 @@ gigadb
 6. [Using rclone on linux to automate backups to google drive](https://medium.com/swlh/using-rclone-on-linux-to-automate-backups-to-google-drive-d599b49c42e8)
 7. [Rclone tecent cloud COS tutorial](https://cloud.tencent.com/developer/article/1520867)  
 8. [Advance rclone](http://hellogeek.fun/rclone/)  
+9. [Rclone to tencent COS](https://wiki-power.com/%E4%BD%BF%E7%94%A8Rclone%E5%90%8C%E6%AD%A5%E7%BD%91%E7%9B%98%E6%95%B0%E6%8D%AE)  
