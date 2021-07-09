@@ -294,6 +294,12 @@ Linux cngb-gigadb-bak 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 
 [gigadb@cngb-gigadb-bak ~]$ whoami
 gigadb
 ```
+
+### Create a Tencent COS bucket
+![img.png](images/tencentcosnover.png)  
+[Doc for setting versioning](https://intl.cloud.tencent.com/document/product/436/19881?from_cn_redirect=1)  
+[Doc for setting logging](https://intl.cloud.tencent.com/document/product/436/17040?from_cn_redirect=1)  
+[Doc for creating SecretId and SecretKey](https://intl.cloud.tencent.com/document/product/436/7751?from_cn_redirect=1)
    
 ### reference
 1. [rclone/integration-test](https://github.com/rclone/integration-test)  
